@@ -63,6 +63,9 @@
     justify-content: center;
     flex-direction: column;
 }
+#main{
+    
+}
 #main #page_one #page_one_main h1{
     font-size: 9rem;
     color: #fff;
