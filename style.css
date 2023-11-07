@@ -1,0 +1,70 @@
+@import url("/Web__Coca/css/page_one.css");
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Poppins";
+}
+#main{
+    width: 100%;
+}
+@media screen and (max-width:1400px) {
+  html,
+  body {
+  font-size: 62.5%;
+}
+}
+@media screen and (max-width:1100px) {
+  html,
+  body {
+  font-size: 60.5%;
+}
+}
+@media screen and (max-width:900px) {
+  html,
+  body {
+  font-size: 57.5%;
+}
+}
+@media screen and (max-width:900px) {
+  html,
+  body {
+  font-size: 50.5%;
+}
+}
+@media screen and (max-width:550px) {
+  html,
+  body {
+  font-size: 45.5%;
+  }
+  #main #page_one #page_one_header #menu{
+    display: block;
+  }
+  #main #page_one #page_one_header #menu i{
+    font-size: 3.5rem;
+  }
+  #main #page_one #page_one_header nav ul li a{
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width:450px) {
+  html,
+  body {
+  font-size: 40.5%;
+  }
+  #main #page_one #page_one_header{
+    height: 70px;
+  }
+  #main #page_one #page_one_main{
+    height: calc(100vh - 70px);
+  }
+}

@@ -1,0 +1,84 @@
+#main #page_one{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#main #page_one #page_one_header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4rem;
+}
+#main #page_one #page_one_header h1{
+    font-size: 4rem;
+}
+#main #page_one #page_one_header nav{
+    position: absolute;
+    left: 150%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main #page_one #page_one_header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+#main #page_one #page_one_header nav ul li{
+    list-style: none;
+}
+#main #page_one #page_one_header nav ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+#main #page_one #page_one_header #menu{
+    display: block;
+}
+#main #page_one #page_one_header #menu i {
+    font-size: 4rem;
+    color: #000;
+}
+#main #page_one #page_one_main{
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-image: url("/Web__Coca/images/background/img.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main #page_one #page_one_main h1{
+    font-size: 9rem;
+    color: #fff;
+    text-align: center;
+}
+#main #page_one #page_one_main p{
+    opacity: .8;
+    color: #fff;
+    font-size: 2.2rem;
+    width: 70%;
+    text-align: center;
+}
+#main #page_one #page_one_main button{
+    margin-top: 2rem;
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+}
